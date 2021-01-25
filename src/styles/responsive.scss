@@ -1,0 +1,39 @@
+@media screen and (min-width: 576px) {
+  #root {
+    #restaurants > #resto-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    restaurant-detail, restaurant-menu {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    .container {
+      padding: 0px 20px;
+    }
+    nav {
+      flex-direction: row;
+      ul {
+        display: none;
+      }
+      #hamburger {
+        display: block;
+      }
+    }
+  }
+}
+
+@media screen and(min-width: 992px) {
+  #root #restaurants > #resto-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and(min-width: 1200px) {
+  #root #restaurants > #resto-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
