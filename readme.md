@@ -16,7 +16,7 @@
 
 ## How To Use
 1. Clone this project
-2. run ```npm install``` or ```yarn install``
+2. run ```npm install``` or ```yarn install```
 3. <b>For Development Mode</b>, run ```yarn start-dev```
 4. run ```npm run build-images``` or ```yarn build-images``` to optimize images
 5. run ```npm run build``` or ```yarn build``` to build the project
